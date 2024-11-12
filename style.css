@@ -5,6 +5,12 @@
 
 }
 .container{
+ margin : 1em;
+    display: grid;
+    grid-template-columns: 1fr 700px;
+    grid-gap: 1em;
+}
+.container{
     margin-left: 300px;
     position: relative;
     min-height: 100vh;
